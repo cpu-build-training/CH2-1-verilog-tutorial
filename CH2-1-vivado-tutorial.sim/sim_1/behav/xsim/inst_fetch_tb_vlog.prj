@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../CH2-1-vivado-tutorial.srcs/sources_1/new/inst_fetch.v" \
+"../../../../CH2-1-vivado-tutorial.srcs/sources_1/new/pc_reg.v" \
+"../../../../CH2-1-vivado-tutorial.srcs/sources_1/new/rom.v" \
+"../../../../CH2-1-vivado-tutorial.srcs/sources_1/new/inst_fetch_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
